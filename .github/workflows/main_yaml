@@ -2,7 +2,8 @@
 on:
   schedule:
   #- cron: '* 12 * * *' # every day at noon
-  - cron: '0 0 * * 1-3' # 3 days a week
+  # - cron: '0 0 * * 1-3' # 3 days a week
+  # - cron: '0 0 0 1 1' # disabled
 
 jobs: # This is the job
   single-commit:
